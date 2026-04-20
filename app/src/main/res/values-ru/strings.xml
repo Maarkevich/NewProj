@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VRPirate Installer ADB</string>
+    
+    <!-- Main Screen -->
+    <string name="adb_connected">ADB подключен</string>
+    <string name="adb_disconnected">ADB отключен</string>
+    <string name="adb_connecting">Подключение…</string>
+    <string name="button_refresh">Обновить список</string>
+    <string name="button_system_settings">Системные настройки</string>
+    <string name="button_logs">Логи</string>
+    
+    <!-- Archive List -->
+    <string name="no_archives_found">Архивы не найдены.\nСкачайте файлы: https://t.me/VRPirate</string>
+    <string name="button_install">Установить</string>
+    <string name="button_installed">Установлено</string>
+    <string name="button_error">Ошибка</string>
+    <string name="button_in_queue">В очереди (%d)</string>
+    <string name="multipart_archive">↓ многотомный %d частей</string>
+    
+    <!-- Progress -->
+    <string name="progress_extracting">Распаковка %d%%</string>
+    <string name="progress_installing">Установка APK…</string>
+    <string name="progress_copying_cache">Копирование кэша %d%%</string>
+    <string name="progress_checking">Проверка…</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_version_title">Конфликт версий</string>
+    <string name="dialog_version_lower">Установлена версия ниже</string>
+    <string name="dialog_version_same">Установлена такая же версия</string>
+    <string name="dialog_version_higher">Установлена версия выше</string>
+    <string name="button_update">Обновить</string>
+    <string name="button_reinstall">Переустановить</string>
+    <string name="button_downgrade">Понизить версию</string>
+    <string name="button_cancel">Отмена</string>
+    
+    <string name="dialog_error_title">Ошибка</string>
+    <string name="button_retry">Повторить</string>
+    <string name="button_delete_and_restart">Удалить всё и начать заново</string>
+    <string name="button_close">Закрыть</string>
+    
+    <string name="dialog_success_title">Успех</string>
+    <string name="dialog_success_message">Установка успешна.\nУдалить распакованные файлы?</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_keep">Оставить</string>
+    
+    <string name="dialog_exit_title">Идёт установка</string>
+    <string name="dialog_exit_message">Что сделать?</string>
+    <string name="button_continue">Продолжить установку</string>
+    <string name="button_cancel_and_close">Закрыть с отменой</string>
+    
+    <!-- Instructions -->
+    <string name="instruction_title">Настройка Wi-Fi ADB</string>
+    <string name="instruction_text">1. Откройте системные настройки (кнопка ниже)\n2. Включите настройки разработчика, если не включены:\n   - В окне системных настроек пролистать в самый низ\n   - "Информация о гарнитуре"\n   - Пролистать в самый низ\n   - Быстро нажать 7 раз на "Номер сборки"\n3. Вернитесь назад (←) → откройте раздел Система → Для разработчиков\n4. Пролистайте вниз до раздела "Отладка по Wi-Fi" → включить\n5. Откройте раздел "Отладка по Wi-Fi" (нажмите на него)\n6. Пролистайте вниз и нажмите "Подключить устройство с помощью кода подключения"\n7. Введите код в поле "Код сопряжения" ниже\n8. Нажмите кнопку "Подключить"</string>
+    <string name="hint_pairing_code">Код сопряжения (6 цифр)</string>
+    <string name="button_connect">Подключить</string>
+    <string name="button_open_settings">Открыть системные настройки</string>
+    
+    <!-- Notifications -->
+    <string name="notification_installing">Установка…</string>
+    <string name="notification_cache_not_copied">Кэш не скопирован (ADB не подключен)</string>
+    
+    <!-- Errors -->
+    <string name="error_no_apk_found">APK не найден в архиве</string>
+    <string name="error_not_enough_space">Недостаточно места</string>
+    <string name="error_extraction_failed">Ошибка распаковки</string>
+    <string name="error_installation_failed">Ошибка установки</string>
+    <string name="error_cache_copy_failed">Ошибка копирования кэша</string>
+    <string name="error_adb_connection_failed">Ошибка подключения ADB</string>
+    <string name="error_invalid_pairing_code">Неверный код сопряжения</string>
+    
+    <!-- Status -->
+    <string name="status_new">Новый</string>
+    <string name="status_in_progress">В процессе</string>
+    <string name="status_success">Успешно</string>
+    <string name="status_error">Ошибка</string>
+</resources>

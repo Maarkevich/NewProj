@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VRPirate Installer ADB</string>
+    
+    <!-- Main Screen -->
+    <string name="adb_connected">ADB Connected</string>
+    <string name="adb_disconnected">ADB Disconnected</string>
+    <string name="adb_connecting">Connecting…</string>
+    <string name="button_refresh">Refresh List</string>
+    <string name="button_system_settings">System Settings</string>
+    <string name="button_logs">Logs</string>
+    
+    <!-- Archive List -->
+    <string name="no_archives_found">No archives found.\nDownload files: https://t.me/VRPirate</string>
+    <string name="button_install">Install</string>
+    <string name="button_installed">Installed</string>
+    <string name="button_error">Error</string>
+    <string name="button_in_queue">In Queue (%d)</string>
+    <string name="multipart_archive">↓ multipart %d parts</string>
+    
+    <!-- Progress -->
+    <string name="progress_extracting">Extracting %d%%</string>
+    <string name="progress_installing">Installing APK…</string>
+    <string name="progress_copying_cache">Copying cache %d%%</string>
+    <string name="progress_checking">Checking…</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_version_title">Version Conflict</string>
+    <string name="dialog_version_lower">Lower version installed</string>
+    <string name="dialog_version_same">Same version installed</string>
+    <string name="dialog_version_higher">Higher version installed</string>
+    <string name="button_update">Update</string>
+    <string name="button_reinstall">Reinstall</string>
+    <string name="button_downgrade">Downgrade</string>
+    <string name="button_cancel">Cancel</string>
+    
+    <string name="dialog_error_title">Error</string>
+    <string name="button_retry">Retry</string>
+    <string name="button_delete_and_restart">Delete All and Restart</string>
+    <string name="button_close">Close</string>
+    
+    <string name="dialog_success_title">Success</string>
+    <string name="dialog_success_message">Installation successful.\nDelete extracted files?</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_keep">Keep</string>
+    
+    <string name="dialog_exit_title">Installation in Progress</string>
+    <string name="dialog_exit_message">What to do?</string>
+    <string name="button_continue">Continue Installation</string>
+    <string name="button_cancel_and_close">Close with Cancel</string>
+    
+    <!-- Instructions -->
+    <string name="instruction_title">Wi-Fi ADB Setup</string>
+    <string name="instruction_text">1. Open system settings (button below)\n2. Enable developer settings if not enabled:\n   - Scroll to the bottom in settings window\n   - "About headset"\n   - Scroll to the bottom\n   - Tap 7 times on "Build number"\n3. Go back (←) → open System → Developer\n4. Scroll down to "Wi-Fi debugging" section → enable\n5. Open "Wi-Fi debugging" section (tap on it)\n6. Scroll down and tap "Connect device with pairing code"\n7. Enter code in "Pairing Code" field below\n8. Press "Connect" button</string>
+    <string name="hint_pairing_code">Pairing Code (6 digits)</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_open_settings">Open System Settings</string>
+    
+    <!-- Notifications -->
+    <string name="notification_installing">Installing…</string>
+    <string name="notification_cache_not_copied">Cache not copied (ADB not connected)</string>
+    
+    <!-- Errors -->
+    <string name="error_no_apk_found">No APK found in archive</string>
+    <string name="error_not_enough_space">Not enough space</string>
+    <string name="error_extraction_failed">Extraction failed</string>
+    <string name="error_installation_failed">Installation failed</string>
+    <string name="error_cache_copy_failed">Cache copy failed</string>
+    <string name="error_adb_connection_failed">ADB connection failed</string>
+    <string name="error_invalid_pairing_code">Invalid pairing code</string>
+    
+    <!-- Status -->
+    <string name="status_new">New</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_success">Success</string>
+    <string name="status_error">Error</string>
+</resources>
